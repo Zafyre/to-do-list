@@ -1,0 +1,25 @@
+.midScreen {
+    flex-grow: 1;
+    /* border: 2px black solid; */
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+
+    /* extra added */
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1.3vh;
+    padding-right: 1.3vh;
+    gap: 6vh;
+}
+
+.showsAllTasks{
+    /* border: 2px black solid; */
+    height: 53vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;    
+}

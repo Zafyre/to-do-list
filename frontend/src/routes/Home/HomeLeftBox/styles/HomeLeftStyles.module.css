@@ -1,0 +1,153 @@
+.leftScreen {
+    /* border: 1px black solid; */
+    background-color: #F4F4F4;
+    display: flex;
+    width: 20%;
+    border-radius: 30px;
+
+    /* extra added */
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1.3vh;
+    padding-right: 1.3vh;
+}
+
+.innerContainer {
+    /* border: 1px black solid; */
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 4vh;
+
+    
+}
+
+.topHeading h3 {
+    font-weight: 600;
+}
+
+.topHeading {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px black solid; */
+    padding-left: 1vh;
+
+}
+
+/* searchbar */
+.search {
+    position: relative;
+    /* border: 1px black solid; */
+}
+
+.search input {
+    height: 4.5vh;
+    font-size: small;
+    padding: 2px;
+    text-align: left;
+    justify-content: flex-start;
+    background-color: #F4F4F4;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    height: 3.1vh;
+    width: 45px;
+    background: blue;
+    justify-content: center;
+    font-size: smaller;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* view box 1 */
+.box1 {
+    /* border: 0.5px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.box1 h6 {
+    font-size: 2.1vh;
+    font-weight: bolder;
+    /* border: 0.5px solid black; */
+    width: fit-content;
+    margin: 0%;
+    padding: 0.5vh;
+    border-bottom: 1px blue solid;
+
+}
+
+.box1Items {
+    /* border: 0.5px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 0.6vh;
+    padding-bottom: 0.6vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 4.5px;
+    overflow: hidden;
+    margin: 1%;
+}
+
+.box1Items:hover {
+    background-color: rgb(185, 191, 255);
+    border-radius: 4.5px;
+    /* shadow */
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px -9px;
+}
+
+.box1Items p {
+    margin: 0px;
+    padding: 0%;
+    /* border: 0.5px solid black; */
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    font-size: small;
+    font-weight: 550;
+}
+
+.box1Current {
+    width: 2.6vh;
+    height: 2.6vh;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px black solid; */
+    padding: 0%;
+    margin: 0%;
+}
+
+.box1Current p {
+    margin: 0%;
+    padding: 0%;
+    align-self: center;
+    text-align: center;
+    font-size: smaller;  
+    /* border: 1px black solid; */
+    line-height: 0vh;
+    color: white;
+}

@@ -1,0 +1,36 @@
+.rightScreen {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #F4F4F4;
+    width: 30%;
+    border: 1px black solid;
+    /* extra added */
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.innerContainer {
+    /* border: 1px black solid; */
+    width: 100%;
+    height: 100%;
+
+}
+
+.innerContainer label {
+    font-size: large;
+    width: 100%;
+    font-weight: 550;
+    /* border: 1px black solid; */
+}
+
+.innerContainer input {
+    /* border: 1px black solid; */
+    width: 90%;
+}
+
+.innerContainer textarea {
+    width: 90%;
+}
